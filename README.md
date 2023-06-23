@@ -1,4 +1,4 @@
-# Using Stackexchange.Redis.Extension client in Docker to access dockerized Redis + Sentinel.
+# Using Stackexchange.Redis.Extension client in Docker to access dockerized Redis + Sentinel
 
 1. Build docker image
 ```cmd
