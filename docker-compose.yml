@@ -1,0 +1,75 @@
+version: '3.4'
+
+services:
+  redis:
+    image: redis:latest
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - master_data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  redis-slave:
+    image: redis:latest
+    command: redis-server --slaveof redis 6379
+    restart: unless-stopped
+    volumes:
+      - slave_data:/data
+    ports:
+       - 6380:6379
+
+  redis-client:
+    build: .
+    image: redis-poco:latest
+    environment:
+      - Redis__ConnectionString=sentinel1:26379,abortConnect=true,connectTimeout=30000,responseTimeout=30000,allowAdmin=true,ssl=false,serviceName=mymaster
+      
+    links:
+      - redis
+      - redis-slave
+      - sentinel1
+      - sentinel2
+      - sentinel3
+
+  sentinel1:
+    image: redis
+    ports:
+      - 26379:26379
+    command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+    links:
+      - redis
+      - redis-slave
+    volumes:
+      - ./sentinel1.conf:/usr/local/etc/redis/sentinel.conf
+    
+  
+  sentinel2:
+    image: redis
+    ports:
+    - 26380:26379
+    command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+    links:
+      - redis
+      - redis-slave
+    volumes:
+      - ./sentinel2.conf:/usr/local/etc/redis/sentinel.conf
+  
+  sentinel3:
+    image: redis
+    ports:
+      - 26381:26379
+    command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+    links:
+      - redis
+      - redis-slave
+    volumes:
+      - ./sentinel3.conf:/usr/local/etc/redis/sentinel.conf
+
+networks:
+  default:
+    name: humanometr_infrastructure
+
+volumes:
+  master_data:
+  slave_data:

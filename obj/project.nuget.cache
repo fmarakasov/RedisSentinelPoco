@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "JJ9Lp+GzHo5hUPzCyopt+VMEijwywfGFbKbLd3Ha/6Oi0e1ssR/cRVM/zhv0/GLu6dJ3xzJvnDzNs8x7IsZoYQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Felix_Marakasov\\source\\repos\\RedisSentinelPoco\\RedisSentinelPoco.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.3\\microsoft.extensions.configuration.binder.7.0.3.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\stackexchange.redis\\2.6.116\\stackexchange.redis.2.6.116.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\stackexchange.redis.extensions.aspnetcore\\9.1.0\\stackexchange.redis.extensions.aspnetcore.9.1.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\stackexchange.redis.extensions.core\\9.1.0\\stackexchange.redis.extensions.core.9.1.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\stackexchange.redis.extensions.system.text.json\\9.1.0\\stackexchange.redis.extensions.system.text.json.9.1.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Felix_Marakasov\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
