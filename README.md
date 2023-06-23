@@ -1,4 +1,4 @@
-# RedisSentinelPoco
+# Using Stackexchange.Redis.Extension client to access Redis + Sentinel.
 
 1. Build docker image
 ```cmd
