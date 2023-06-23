@@ -68,7 +68,7 @@ services:
 
 networks:
   default:
-    name: humanometr_infrastructure
+    name: redis_poco_network
 
 volumes:
   master_data:
