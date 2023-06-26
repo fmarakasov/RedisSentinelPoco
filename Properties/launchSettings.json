@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RedisSentinelPoco": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60426;http://localhost:60427"
+    }
+  }
+}
