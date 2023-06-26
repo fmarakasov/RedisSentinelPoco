@@ -19,19 +19,6 @@ services:
     ports:
        - 6380:6379
 
-  redis-client:
-    build: .
-    image: redis-poco:latest
-    environment:
-      - Redis__ConnectionString=sentinel1:26379,abortConnect=true,connectTimeout=30000,responseTimeout=30000,allowAdmin=true,ssl=false,serviceName=mymaster
-      
-    links:
-      - redis
-      - redis-slave
-      - sentinel1
-      - sentinel2
-      - sentinel3
-
   sentinel1:
     image: redis
     ports:
